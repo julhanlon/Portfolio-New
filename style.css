@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  font-family: "Muli", sans-serif;
+}
+
+#opening {
+  color: darkgrey;
+  font-size: 12rem !important;
+}
+
+.text {
+  color: darkgrey;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+
+@media screen and (min-width: 1050px) {
+  .row-cols-md-2 {
+  }
+}
+
+.homeFooter {
+  padding-top: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: calc(env(safe-area-inset-bottom, 20px) + 36px);
+}
+
+canvas {
+  border-bottom: 1px solid darkgrey;
+}
