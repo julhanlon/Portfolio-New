@@ -32,12 +32,12 @@ a {
 
 .row img {
   width: 300px;
-  border: darkgrey solid 15px;
+  border: darkgrey solid 10px;
 }
 
 .row img:hover {
   width: 300px;
-  border: white solid 20px;
+  border: white solid 17px;
 }
 
 .row {
@@ -59,7 +59,7 @@ a {
 
 .card {
   height: 600px;
-  width: 300px;
+  width: 500px;
   display: flex;
   justify-content: center;
 }
