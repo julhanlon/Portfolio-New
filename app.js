@@ -3,6 +3,7 @@ $(document).ready(function () {
 
   $("#portfolio").hide();
   $("#footer").hide();
+  $(".navbar").hide();
 
   hideOpening();
 
@@ -12,6 +13,7 @@ $(document).ready(function () {
       $("#opening").fadeOut();
       $("#portfolio").show();
       $("#footer").show();
+      $(".navbar").show();
     }, 3000);
   }
 });
