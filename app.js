@@ -2,6 +2,8 @@ $(document).ready(function () {
   console.log("hello");
 
   $("#portfolio").hide();
+  $("#footer").hide();
+
   hideOpening();
 
   var timer = "";
@@ -9,6 +11,7 @@ $(document).ready(function () {
     timer = setTimeout(function () {
       $("#opening").fadeOut();
       $("#portfolio").show();
+      $("#footer").show();
     }, 3000);
   }
 });
