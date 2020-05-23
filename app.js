@@ -12,9 +12,9 @@ $(document).ready(function () {
   function hideOpening() {
     timer = setTimeout(function () {
       $("#opening").hide();
-      $("#portfolio").show();
+      $("#portfolio").fadeIn(2000);
       $("#footer").show();
-      $(".navbar").show();
+      $(".navbar").fadeIn(2000);
     }, 3000);
   }
 });

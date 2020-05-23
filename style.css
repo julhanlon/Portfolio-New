@@ -19,6 +19,7 @@ body {
 a {
   color: darkgrey;
   font-size: 1.5rem;
+  margin: 10px;
 }
 
 #footer {
@@ -32,21 +33,21 @@ a {
 
 .row img {
   width: 300px;
-  border: darkgrey solid 10px;
 }
 
 .row img:hover {
   width: 300px;
-  border: white solid 17px;
+  border: darkgrey solid 5px;
 }
 
 .row {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .navbar {
   display: flex;
   justify-content: flex-end;
+  font-variant: small-caps;
 }
 
 #rowTitle {
@@ -54,12 +55,42 @@ a {
 }
 
 #myPic {
-  width: 250px;
+  width: 400px;
+  height: 570;
+  filter: grayscale(100%);
+  border: black solid 2px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .card {
-  height: 600px;
+  height: 900px;
   width: 500px;
+  background-color: darkgrey;
+}
+
+#aboutme {
   display: flex;
   justify-content: center;
+  margin-bottom: 150px;
+}
+
+#myInfo {
+  color: black;
+  margin: 10px;
+}
+
+#git {
+  filter: invert(100%);
+  height: 25px;
+  width: 25px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h3,
+h2 {
+  font-variant: small-caps;
 }
