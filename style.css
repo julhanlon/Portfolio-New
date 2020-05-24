@@ -32,12 +32,11 @@ a {
 }
 
 .portImg {
-  width: 300px;
+  width: 350px;
 }
 
 .portImg:hover {
-  width: 300px;
-  border: darkgrey solid 5px;
+  width: 365px;
 }
 
 #row {
@@ -55,18 +54,21 @@ a {
 }
 
 #myPic {
-  width: 400px;
-  height: 570;
+  width: 430px;
+  height: 600px;
   filter: grayscale(100%);
   border: black solid 2px;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 40px;
+  border: 5px solid darkgrey;
+  box-shadow: 5px 10px darkgrey;
+  margin-bottom: 4rem;
 }
 
 .card {
   height: 900px;
   width: 500px;
-  background-color: darkgrey;
+  background-color: black;
 }
 
 #aboutme {
@@ -76,14 +78,19 @@ a {
 }
 
 #myInfo {
-  color: black;
-  margin: 10px;
+  color: darkgrey;
+  margin: 20px;
 }
 
 #git {
   filter: invert(100%);
   height: 25px;
   width: 25px;
+}
+
+#git:hover {
+  height: 30px;
+  width: 30px;
 }
 
 p {
@@ -93,4 +100,19 @@ p {
 h3,
 h2 {
   font-variant: small-caps;
+}
+
+#myPic {
+  animation: glitch 2s linear infinite;
+}
+
+@keyframes glitch {
+  5%,
+  70% {
+    transform: translate(15px, 0) skew(0deg);
+  }
+  5%,
+  80% {
+    transform: translate(-15px, 0) skew(0deg);
+  }
 }
