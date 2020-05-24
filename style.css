@@ -103,10 +103,10 @@ h2 {
 }
 
 #myPic {
-  animation: glitch 2s linear infinite;
+  animation: moves 2s linear infinite;
 }
 
-@keyframes glitch {
+@keyframes moves {
   5%,
   70% {
     transform: translate(15px, 0) skew(0deg);
