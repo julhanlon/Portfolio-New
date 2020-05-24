@@ -31,16 +31,16 @@ a {
   width: 100%;
 }
 
-.row img {
+.portImg {
   width: 300px;
 }
 
-.row img:hover {
+.portImg:hover {
   width: 300px;
   border: darkgrey solid 5px;
 }
 
-.row {
+#row {
   margin-bottom: 60px;
 }
 
